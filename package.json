@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasilij-jV/defender-game030623.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Vasilij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasilij-jV/defender-game030623/issues"
+  },
+  "homepage": "https://github.com/Vasilij-jV/defender-game030623#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  }
+}
